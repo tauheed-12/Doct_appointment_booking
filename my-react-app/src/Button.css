@@ -1,0 +1,20 @@
+.button-link {
+    display:flex;
+    padding: 15px 90px;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    flex-wrap: wrap;
+
+  }
+  .active {
+    /* Styles for the active state */
+    background-color: green;
+    color: #fff;
+  }
+  
+
+  

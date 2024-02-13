@@ -1,0 +1,302 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(238, 238, 54);
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+#meet{
+    background-color: #495f0b;
+    color: #fff;
+    padding: 10px;
+    display: inline;
+    align-self: center;
+    box-shadow: 0px 0px 10px rgb(179, 179, 40);
+    border-radius: 5px;
+}
+#section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner{
+    width: 100%;
+    overflow-x: hidden;
+}
+.banner img{
+    width: 100%;
+    overflow-x: hidden;
+}
+section {
+    margin: 0px auto;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 5px;
+}
+
+.doctor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.doctor img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.bio {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2%;
+    margin: 2%;
+    transition: transform 0.3s;
+}
+.bio:hover{
+    transform: scale(1.05);
+}
+.bio button{
+    display: block;
+    margin: 20px 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #80a519;
+    color: #fff;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+.bio button:hover{
+    background-color: #a1c837;
+}
+@media screen and (max-width: 600px) {
+    .doctor {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .doctor img {
+        margin: 0 auto 10px;
+    }
+}
+.why-choose {
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+}
+.why-choose #why1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 250px;
+   justify-content: center;
+   padding: 10px;
+   padding-left: 4%;
+   padding-right: 3%;
+   margin-left: 10px;
+   background-color: rgb(193, 234, 234);
+   border-radius: 2%;
+}
+.why-choose img{
+    height: 50px;
+    width: 50px;
+}
+.why-choose h2{
+     background-color: rgb(184, 184, 30);
+     border-radius: 5%;
+     padding: 2%;
+     padding-bottom: 1%;
+     padding-top: 1%;
+     margin-bottom: 5px;
+     display: inline;
+}
+.why-choose ul{
+    font-size: 1.3em;
+    margin-left: 4%;
+    line-height: 165%;
+}
+.testimonial {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+.testimonial .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.testimonial h2{
+    color: rgb(216, 216, 97);
+    text-decoration: underline;
+    text-decoration-color:rgb(255, 255, 84) ;
+    font-size: 2.5em;
+}
+.how-it-works{
+    /* background-color: rgb(184, 228, 240); */
+    padding-top:10px;
+    padding-left: 4%;
+}
+.how-it-works h2{
+    font-family: sans-serif;
+    font-size: 2em;
+    padding-left: 3%;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    flex: 1;
+    box-sizing: border-box; 
+    box-shadow: 0px 0px 10px rgb(139, 138, 138);
+    padding: 2%; 
+    margin: 2%;
+    width: calc(33.33% - 4%); 
+    min-width: 200px; 
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card1 img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card1 p {
+    font-family: sans-serif;
+    flex-grow: 1; 
+}
+
+.card1 span {
+    color: rgb(120, 120, 24);
+    font-size: 1.2em;
+    padding-left: 2%;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+.flow{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.step{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(34, 178, 178);
+    padding: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 1%;
+    gap: 10px;
+    width: 300px;
+}
+.flow img{
+    width: 300px;
+    height:;
+    margin-left: 5%;
+    opacity: 1;
+}
+.step span{
+    font-size: 3em;
+    color: silver;
+}
+#flow-id{
+    font-size: 1.5em;
+    color: white;
+}
+#flow-des{
+    font-size: 1.2em;
+    color: rgb(213, 211, 211);
+}
+@media screen and (max-width: 600px) {
+    .doctor {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .doctor img {
+        margin: 0 auto 10px;
+    }
+
+    .why-choose h2 {
+        margin-bottom: 10px;
+    }
+
+    .flow {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .testimonial .card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .how-it-works {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1 img {
+        margin: 0 auto 2%;
+        margin-top: 0;
+    }
+
+    .testimonial h2,
+    .why-choose h2 {
+        margin-bottom: 2%;
+    }
+
+    .flow {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        margin-bottom: 2%;
+        width: 80%;
+    }
+}

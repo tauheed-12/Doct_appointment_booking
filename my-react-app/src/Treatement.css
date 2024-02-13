@@ -1,0 +1,49 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .cardz {
+    width: 200px;
+    margin: 3%;
+    padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: none; 
+  }
+  .cardz:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add hover effect */
+  }
+  
+  .cardz h2 {
+    color: black;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .cardz p {
+    color: #666666;
+  }
+  
+  .cardz img {
+    max-width: 70%;
+    border-radius: 4px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .cardz {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    .cardz {
+      width: 48%;
+    }
+  }
+  

@@ -1,0 +1,81 @@
+.Navbar {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px gray;
+  }
+  
+  .Navbar2 {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    flex: 2;
+  }
+  #But-App{
+     color: white;
+     text-decoration: none;
+  }
+  #home-opt{
+    color: black;
+    text-decoration: none;
+  }
+  #home-opt:hover{
+    color: rgb(62, 127, 149);
+  }
+  .Navbar2 button {
+    border: none;
+    color: white;
+    background-color: blue;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+  }
+  .Navbar2 button:hover{
+    background-color: white;
+    border: 2px solid rgb(21, 21, 126);
+    color: black;
+}
+   #But-App:hover{
+    color: black;
+   }
+  .Navbar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    flex: 1;
+    font-size: 1.3em;
+    font-weight: 900;
+  }
+  
+  .NavbarComp {
+    cursor: pointer;
+  }
+  
+  .NavbarComp:hover {
+    color: rgb(62, 127, 149);
+  }
+  
+  @media screen and (max-width: 800px) {
+    .Navbar2 {
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  
+    .Navbar2 button {
+      margin-top: 10px;
+      font-size: 1em;
+    }
+
+    .Navbar1 {
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+  

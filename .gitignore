@@ -1,0 +1,12 @@
+# Ignore node_modules directories
+my-react-app/node_modules/
+Server/node_modules/
+
+# Ignore image files within the src directory
+my-react-app/src/**/*.png
+my-react-app/src/**/*.jpg
+my-react-app/src/**/*.gif
+my-react-app/src/**/*.jpeg
+
+# Ignore .env file within the src directory
+my-react-app/src/.env

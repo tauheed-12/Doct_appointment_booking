@@ -1,0 +1,68 @@
+.forms{
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 20%;
+}
+.forms h1{
+    font-size: 35px;
+    align-self: center;
+    color: brown;
+}
+#formz{
+   display: flex;
+   flex-direction: column;
+}
+#forma{
+    display: flex;
+    justify-content: space-between;
+}
+#names{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.forms input{
+   width: 300px;
+   height: 30px;
+}
+#texts{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.forms label{
+    font-size: 22px;
+}
+#emails{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    margin-left: 0;
+}
+#buttons button{
+    cursor: pointer;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(27, 96, 73);
+    color: white;
+}
+#buttons button:hover{
+    background-color: rgb(90, 202, 165);
+}
+#inputs::placeholder{
+    font-size: 18px;
+    padding-left: 10px;
+}
+input{
+    font-size: 18px;
+}
+textarea{
+    font-size: 20px;
+}
+#buttons{
+    margin: 20px;
+}
